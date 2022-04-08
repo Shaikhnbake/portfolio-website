@@ -9,9 +9,13 @@
 	--primary-color: #6a0dad;
 	--secondary-color: #0D98BA;
 	--dark-grey: #2b2b2b;
+	--black: #000;
+	--white: #FFFFFF;
 	--primary-font: 'Lato', sans-serif;
 	--primary-font-weight: 400;
 	--primary-font-size: 16px;
+	--header-font-weight: 700;
+	--button-table-pad: 40px;
 }
 
 
@@ -40,7 +44,7 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: var(--header-font-weight);
   font-style: italic;
   color: var(--primary-color);
   text-decoration: underline;
@@ -48,12 +52,12 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: var(--header-font-weight);
 }
 
 h3 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--header-font-weight);
 }
 
 a {
@@ -61,7 +65,7 @@ a {
 }
 
 a:visited {
-	color:#000;
+	color: var(--black);
 }
 
 a:active {
@@ -82,7 +86,7 @@ button,
 	font-family: inherit;
 	/* makes the button use font from outer container*/
 	background-color: var(--primary-color);
-	color: white;
+	color: var(--white);
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
@@ -204,12 +208,12 @@ button:focus,
 }
 
 .buttons {
-	padding: 40px;
+	padding: var(--button-table-pad);
 }
 
 
 .skilltable {
-	padding: 40px;
+	padding: var(--button-table-pad);
 }
 
 /* svg picture = .sun, .cloud-front, .cloud-back 

@@ -1,3 +1,4 @@
+
 * {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -8,9 +9,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-  	/* Sets the font size to 16px */
   	line-height: 1.6;
-  	/* Sets the line-height to 1.6 */
 }
 
 h1 {
@@ -36,7 +35,7 @@ a {
 }
 
 a:visited {
-	color:#000;
+	color: #000;
 }
 
 a:active {
@@ -53,7 +52,7 @@ button {
 	display: inline-block;
 	font-family: inherit;
 	background-color: #6a0dad;
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
@@ -68,7 +67,7 @@ button {
 	display: inline-block;
 	font-family: inherit;
 	background-color: #6a0dad;
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
@@ -83,7 +82,7 @@ button {
 	display: inline-block;
 	font-family: inherit;
 	background-color: #6a0dad;
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
