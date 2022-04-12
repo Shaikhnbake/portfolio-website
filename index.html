@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> WebDev Hut Jr. </title>
+	<title> WebDev Hut </title>
     <link rel="icon" type="image/png" href="http://wikipedia.com/static/favicon/wikipedia.ico" sizes="16x16" />
 	<link rel="stylesheet" type="text/css" href="css/normalize/normalize.css">
 	
@@ -41,6 +41,7 @@
 	  </header>
 
 	  <main class="profile">
+<!-- should i Use div instead of Main ? -->
 		
 		<img src="img/headshot.png" class="profile_portrait" alt="Selfie Zone, a self portrait of Najm Shaikh">
 		
@@ -52,12 +53,26 @@
 			My name is Najm Shaikh. I am a <span>web</span> developer from Florida. Part-time Realtor. Aspiring Digital Artist
 		</p>
 
-		<a class href="https://github.com/Shaikhnbake"> Would you like to see ?</a> 
+		<a class href="#"> Would you like to see ?</a> 
+	
+	<!-- should i link my CV here ? or just a Github link? -->
 
-		<!-- CAN ALSO PUT LINK TO LOCAL CV/RESUME WHEN DONE HERE ^^-->
+
+
 
 	  </main>
+		<!-- If i wanted to have muliple links ( one for code, one for art and one for real estate) maybe using different icons/pictures for each one then it would code as:
+			
+			<a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
 
+ -->
+	<div class="buttons">
+		<a href="#" id="default-link">Default Link</a>
+		<button type="button">Default Button</button>
+		<button class="button_secondary">Secondary Button</button>
+	</div>
+
+	
 
 
 <!-- This Section is the Footer to Action-->
